@@ -1,0 +1,43 @@
+﻿Build started 27/01/2014 17:33:43.
+     1>Project "L:\work\3D models & textures loading and draw code work\texture files stuff\polymorphic textures\polymorphic textures\polymorphic textures.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt bmp_handler.cpp imageloader.cpp main.cpp raw_tex.cpp "texture handler.cpp" tga_handler.cpp
+         tga_handler.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\gl\gl.h(1474): warning C4068: unknown pragma
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\gl\glu.h(291): warning C4068: unknown pragma
+     1>c:\program files (x86)\windows kits\8.0\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\gl\gl.h(80) : see previous definition of 'APIENTRY'
+     1>l:\work\3d models & textures loading and draw code work\texture files stuff\polymorphic textures\polymorphic textures\tga_handler.cpp(368): warning C4018: '<' : signed/unsigned mismatch
+     1>l:\work\3d models & textures loading and draw code work\texture files stuff\polymorphic textures\polymorphic textures\tga_handler.cpp(401): warning C4018: '<' : signed/unsigned mismatch
+         texture handler.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\gl\gl.h(1474): warning C4068: unknown pragma
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\gl\glu.h(291): warning C4068: unknown pragma
+         raw_tex.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\gl\gl.h(1474): warning C4068: unknown pragma
+     1>c:\program files (x86)\windows kits\8.0\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\gl\gl.h(80) : see previous definition of 'APIENTRY'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\gl\glu.h(291): warning C4068: unknown pragma
+         main.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\gl\gl.h(1474): warning C4068: unknown pragma
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\gl\glu.h(291): warning C4068: unknown pragma
+         imageloader.cpp
+         bmp_handler.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\gl\gl.h(1474): warning C4068: unknown pragma
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\gl\glu.h(291): warning C4068: unknown pragma
+     1>l:\work\3d models & textures loading and draw code work\texture files stuff\polymorphic textures\polymorphic textures\bmp_handler.cpp(170): warning C4101: 'padding' : unreferenced local variable
+     1>l:\work\3d models & textures loading and draw code work\texture files stuff\polymorphic textures\polymorphic textures\bmp_handler.cpp(228): warning C4018: '<' : signed/unsigned mismatch
+     1>l:\work\3d models & textures loading and draw code work\texture files stuff\polymorphic textures\polymorphic textures\bmp_handler.cpp(253): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"L:\work\3D models & textures loading and draw code work\texture files stuff\polymorphic textures\Debug\polymorphic textures.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"L:\work\3D models & textures loading and draw code work\texture files stuff\polymorphic textures\Debug\polymorphic textures.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"L:\work\3D models & textures loading and draw code work\texture files stuff\polymorphic textures\Debug\polymorphic textures.lib" /MACHINE:X86 Debug\bmp_handler.obj
+         Debug\imageloader.obj
+         Debug\main.obj
+         Debug\raw_tex.obj
+         "Debug\texture handler.obj"
+         Debug\tga_handler.obj
+         polymorphic textures.vcxproj -> L:\work\3D models & textures loading and draw code work\texture files stuff\polymorphic textures\Debug\polymorphic textures.exe
+     1>Done Building Project "L:\work\3D models & textures loading and draw code work\texture files stuff\polymorphic textures\polymorphic textures\polymorphic textures.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.71
